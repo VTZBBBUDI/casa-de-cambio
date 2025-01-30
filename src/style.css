@@ -1,0 +1,108 @@
+/* Resetando margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #2f2f2f; /* Cor de fundo escura (Dark Mode) */
+  color: #fff; /* Cor do texto clara */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h1 span {
+  color: green;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form > div {
+  margin-bottom: 15px; /* Espaço entre os elementos */
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px; /* Margem pequena abaixo do label */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#input-moeda {
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 250px;
+}
+
+#btn-pesquisar {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #444; /* Fundo da tabela mais claro que o fundo geral */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+table td {
+  background-color: #555; /* Cor de fundo para as células */
+  color: #fff;
+}
+
+table td img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
