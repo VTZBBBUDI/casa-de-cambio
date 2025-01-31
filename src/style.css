@@ -1,4 +1,5 @@
-/* Resetando margens e padding */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,80 +7,66 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
-  background-color: #2f2f2f; /* Cor de fundo escura (Dark Mode) */
-  color: #fff; /* Cor do texto clara */
+  background-color: #1e1e1e;
+  color: #fff;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 50px;
-  text-align: left;
-  margin-left: 20px;
+  margin-top: 30px;
 }
 
 h1 span {
-  color: green;
+  color: #91d18b;
 }
 
 form {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-form > div {
-  margin-bottom: 15px; /* Espaço entre os elementos */
-}
-
-label {
-  font-size: 1rem;
-  margin-bottom: 5px; /* Margem pequena abaixo do label */
-}
-
-.input-container {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 #input-moeda {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px;
-  width: 250px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background: #2f2f2f;
+  color: white;
+  text-align: center;
 }
 
 #btn-pesquisar {
-  padding: 10px;
+  padding: 10px 15px;
   background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
-  width: 150px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 table {
   margin-top: 50px;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 10px;
   width: 80%;
   max-width: 800px;
   min-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #444; /* Fundo da tabela mais claro que o fundo geral */
-  border-radius: 8px; /* Bordas arredondadas */
-}
-
-table, th, td {
-  border: 1px solid #ddd;
+  background-color: #444;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 th, td {
@@ -88,21 +75,16 @@ th, td {
 }
 
 th {
-  background-color: #4CAF50;
   color: white;
 }
 
 td {
-  background-color: #f9f9f9;
-}
-
-table td {
-  background-color: #555; /* Cor de fundo para as células */
-  color: #fff;
-}
-
-table td img {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  background-color: #333;
+  color: #ffc107;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
 }
