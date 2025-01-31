@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Garante que o corpo ocupe toda a altura da página */
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+h1 span {
+  color: #91d18b;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#input-moeda {
+  font-size: 1rem;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background: #2f2f2f;
+  color: white;
+  text-align: center;
+}
+
+#btn-pesquisar {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Ajuste para a tabela */
+table {
+  margin-top: 50px;
+  width: 80%;
+  max-width: 800px;
+  min-width: 600px;
+  background-color: #444;
+  border-radius: 8px;
+  padding: 10px;
+  max-height: 400px;  /* Altura fixa para a tabela */
+  overflow-y: hidden;    /* Habilita a rolagem dentro da tabela */
+  display: block;      /* Permite que a tabela se comporte como um bloco com rolagem */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Adicionando espaçamento entre as células */
+  border-spacing: 16px; /* Ajuste a quantidade do espaçamento conforme necessário */
+  border-collapse: separate; /* Garante que as células não se sobreponham */
+  
+  /* Desabilita rolagem horizontal */
+  overflow-x: hidden;
+}
+
+/* Fixa o cabeçalho da tabela no topo */
+thead {
+  display: flex;
+  justify-content: center;
+}
+
+tbody {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+  /* Estilo de rolagem vertical moderno */
+  scrollbar-width: thin;   /* Firefox */
+  scrollbar-color: #4CAF50 transparent; /* Firefox */
+}
+
+/* Estilo para a rolagem no Chrome, Edge e Safari */
+tbody::-webkit-scrollbar {
+  width: 8px;
+}
+
+tbody::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+tbody::-webkit-scrollbar-thumb:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilo das células e cabeçalho */
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  color: white;
+  position: sticky;
+  top: 0; /* Fixa o cabeçalho no topo */
+  z-index: 1; /* Garante que o cabeçalho fique sobre o conteúdo */
+  text-align: center;
+}
+
+td {
+  background-color: #333;
+  color: #ffc107;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
