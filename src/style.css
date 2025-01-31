@@ -15,13 +15,13 @@ body {
   height: 100vh; /* Garante que o corpo ocupe toda a altura da página */
   background-color: #1e1e1e;
   color: #fff;
-  padding: 20px;
+  padding: 20%;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 30%;
 }
 
 h1 span {
@@ -29,17 +29,17 @@ h1 span {
 }
 
 form {
-  margin-top: 20px;
+  margin-top: 20%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10%;
 }
 
 #input-moeda {
   font-size: 1rem;
-  padding: 10px;
-  width: 100px;
-  border-radius: 5px;
+  padding: 10%;
+  width: 100%;
+  border-radius: 5%;
   border: none;
   background: #2f2f2f;
   color: white;
@@ -47,32 +47,32 @@ form {
 }
 
 #btn-pesquisar {
-  padding: 10px 15px;
+  padding: 10% 15%;
   background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 5%;
   font-weight: bold;
 }
 
 /* Ajuste para a tabela */
 table {
-  margin-top: 50px;
+  margin-top: 50%;
   width: 80%;
-  max-width: 800px;
-  min-width: 600px;
+  max-width: 800%;
+  min-width: 600%;
   background-color: #444;
-  border-radius: 8px;
-  padding: 10px;
-  max-height: 400px;  /* Altura fixa para a tabela */
+  border-radius: 8%;
+  padding: 10%;
+  max-height: 400%;  /* Altura fixa para a tabela */
   overflow-y: hidden;    /* Habilita a rolagem dentro da tabela */
   display: block;      /* Permite que a tabela se comporte como um bloco com rolagem */
   margin-left: auto;
   margin-right: auto;
   
   /* Adicionando espaçamento entre as células */
-  border-spacing: 16px; /* Ajuste a quantidade do espaçamento conforme necessário */
+  border-spacing: 16%; /* Ajuste a quantidade do espaçamento conforme necessário */
   border-collapse: separate; /* Garante que as células não se sobreponham */
   
   /* Desabilita rolagem horizontal */
@@ -87,7 +87,7 @@ thead {
 
 tbody {
   display: block;
-  max-height: 300px;
+  max-height: 300%;
   overflow-y: auto;
   /* Estilo de rolagem vertical moderno */
   scrollbar-width: thin;   /* Firefox */
@@ -96,7 +96,7 @@ tbody {
 
 /* Estilo para a rolagem no Chrome, Edge e Safari */
 tbody::-webkit-scrollbar {
-  width: 8px;
+  width: 8%;
 }
 
 tbody::-webkit-scrollbar-track {
@@ -105,7 +105,7 @@ tbody::-webkit-scrollbar-track {
 
 tbody::-webkit-scrollbar-thumb {
   background-color: #4CAF50;
-  border-radius: 10px;
+  border-radius: 10%;
 }
 
 tbody::-webkit-scrollbar-thumb:hover {
@@ -114,7 +114,7 @@ tbody::-webkit-scrollbar-thumb:hover {
 
 /* Estilo das células e cabeçalho */
 th, td {
-  padding: 12px;
+  padding: 12%;
   text-align: center;
 }
 
@@ -130,9 +130,9 @@ td {
   background-color: #333;
   color: #ffc107;
   font-weight: bold;
-  padding: 12px;
+  padding: 12%;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+  box-shadow: 2% 2% 10% rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease-in-out;
 }
